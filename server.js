@@ -20,7 +20,7 @@ const app = express();
 //middleware
 app.use(express.json());
 app.use(morgan('dev'));
-app.use(cors({ origin: "https://santhosh-pizza-delivery.onrender.com"}))
+app.use(cors({ origin: "https://santhosh-pizzas.netlify.app/"}))
 
 
 
