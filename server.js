@@ -20,7 +20,7 @@ const app = express();
 //middleware
 app.use(express.json());
 app.use(morgan('dev'));
-app.use(cors({ origin: "http://localhost:3000"}))
+app.use(cors({ origin: "https://santhosh-pizzas.netlify.app"}))
 
 
 
@@ -34,7 +34,7 @@ app.get("/",(req,res) =>{
 })
 
 
-const port =process.env.PORT || 3001 ;
+const port =process.env.PORT || 5001 ;
 app.listen(port, ()=>{
     console.log(`App listening on port ${port}!`)
 });
