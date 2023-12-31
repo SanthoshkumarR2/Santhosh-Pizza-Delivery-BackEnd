@@ -20,7 +20,7 @@ const app = express();
 //middleware
 app.use(express.json());
 app.use(morgan('dev'));
-app.use(cors({ origin: "https://santhosh-pizza-delivery-front-end.vercel.app/"}))
+app.use(cors({ origin: "https://santhosh-pizza-delivery-front-end.vercel.app"}))
 
 
 
